@@ -67,8 +67,8 @@ videoCards.forEach(item => {
 //cards slider
 
 let cardContainers = document.querySelectorAll('.card-container');
-let preBtns = document.querySelectorAll('#pre');
-let nxtBtns = document.querySelectorAll('#nxt');
+let preBtns = document.querySelectorAll('pre');
+let nxtBtns = document.querySelectorAll('nxt');
 
 cardContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();
