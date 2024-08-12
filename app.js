@@ -27,6 +27,7 @@ const createSlide = () => {
 
     // setting up image
     imgElement.src = movies[slideIndex].image;
+    imgElement.alt = "abc"
     slideIndex++;
 
     // setting elements classname
