@@ -295,8 +295,8 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
  }
 
-.pre,
-.nxt{
+ .pre,
+ .nxt{
     position: absolute;
     top: 0;
     width: 5%;
@@ -306,22 +306,22 @@ body{
     cursor: pointer;
     outline: none;
  }
-.pre{
+ .pre{
     left: 0;
     background: linear-gradient(to right,#0c111b 0%,#0c111b00);
  }
-.nxt{
+ .nxt{
     right: 0;
     background: linear-gradient(to right,#0c111b 0%,#0c111b00);
  }
-.pre img,
-.nxt img{
+ .pre img,
+ .nxt img{
     width: 15px;
     height: 20px;
     opacity: 0;
  }
-.pre:hover img,
-.nxt:hover img{
+ .pre:hover img,
+ .nxt:hover img{
     opacity: 5;
  }
 /****************************footer***************************/
